@@ -1,0 +1,10 @@
+<script src="{{asset('admin/js/jquery-3.6.0.min.js')}}"></script>
+<!-- <script src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
+<script src="{{asset('admin/js/fusioncharts.theme.fusion.js')}}"></script>
+<script src="{{asset('admin/js/chart.js')}}"></script> -->
+<script src="{{asset('admin/js/Chart.min.js')}}"></script>
+<script src="{{asset('admin/js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{asset('admin/js/anychart-core.min.js')}}"></script>
+<script src="{{asset('admin/js/anychart-pie.min.js')}}"></script>
+<script src="{{asset('admin/js/owl.carousel.min.js')}}"></script>
+<script src="{{asset('admin/js/script.js')}}"></script>

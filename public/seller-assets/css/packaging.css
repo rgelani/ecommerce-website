@@ -1,0 +1,91 @@
+.packing_header {
+  font-size: 26px;
+  margin-right: 16px;
+}
+
+.active1,
+.btn1:hover {
+  color: #4d7c73 !important;
+  border-bottom: 3px solid #ffce55;
+}
+
+a{
+  color: #4d7c73;
+}
+
+.payment_heading{
+  display: flex;
+}
+
+p {
+  word-wrap: break-word;
+  margin-bottom: 12px;
+  font-size: 12px;
+}
+
+h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 15px;
+  color: #000000;
+  margin-bottom: 12px !important;
+}
+
+.form-control{
+  height: 35px !important;
+}
+
+.col-lg-6,
+.col-lg-12 {
+  padding: 0;
+}
+
+.packaging_details {
+  margin-top: 50px;
+
+  background: #ffffff;
+  border: 0.1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  padding: 30px;
+  margin: 55px;
+}
+
+.display-grid{
+    display: grid;
+    text-align: center;
+}
+
+.button {
+  background: #4fc6af;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: black;
+  padding: 6px 26px;
+  border: none;
+  margin: 0 10px;
+}
+
+label{
+    color: black;
+}
+
+.modal-input{
+    width: 100%;
+}
+
+.modal-header{
+    display: flex;
+}
+
+.span1{
+    font-size: 30px;
+    cursor: pointer;
+}

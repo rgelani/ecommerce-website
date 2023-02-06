@@ -1,0 +1,134 @@
+@extends('seller.layouts.master')
+
+@section('extra-css')
+<style>
+    .main_content_lg{
+        background-image: url("{{asset('seller-assets/image/cancle/waw_shape_model.png')}}");
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .btn-theme-gradient{
+        background: linear-gradient(99.54deg, rgba(162, 205, 184, 0.65) 7.46%, rgba(77, 124, 115, 0.65) 95.68%);
+        border-radius: 12px;
+        border: hidden;
+        text-decoration: none;
+        padding: 5px 30px;
+        color: black;
+    }
+    .btn-theme-gradient:hover{
+        color: white;
+    }
+    .height-350 {
+        height: 350px;
+    }
+    .bg-c4{
+        background: #c4c4c4;
+    }
+    .bg-theme-grey{
+        background: #f5f3f3
+    }
+    .carousel > .carousel-indicators > li {
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        background: #c4c4c4;
+    }
+    .carousel > .carousel-indicators > li.active {
+        background: #787878;
+    }
+</style>
+@endsection
+
+@section('content')
+<div>
+    <div class="row">
+        <div class="col text-center" style="border-right: 1px solid #C4C4C4;">
+            <a href="{{ route('seller.product.index') }}" class="btn-theme-gradient">Single Listing</a>
+            <div id="carouselSingleListing" class="carousel slide height-350 w-75 mt-3 mx-auto" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselSingleListing" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselSingleListing" data-slide-to="1"></li>
+                    <li data-target="#carouselSingleListing" data-slide-to="2"></li>
+                    <li data-target="#carouselSingleListing" data-slide-to="3"></li>
+                    <li data-target="#carouselSingleListing" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner height-350">
+                    <div class="carousel-item active">
+                    <img class="d-block w-100 height-350" src="{{asset('seller-assets/image/product_view/product_big_img.png')}}" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100 height-350" src="{{asset('seller-assets/image/product_view/product_big_img.png')}}" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100 height-350" src="{{asset('seller-assets/image/product_view/product_big_img.png')}}" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100 height-350" src="{{asset('seller-assets/image/product_view/product_big_img.png')}}" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100 height-350" src="{{asset('seller-assets/image/product_view/product_big_img.png')}}" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselSingleListing" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselSingleListing" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="w-50 row align-items-stretch mx-auto">
+                <div class="col-auto p-3 bg-c4 d-flex align-items-center"><img src="{{asset('seller-assets/image/bulk_product_listing/youtube-icon.png')}}" alt="youtube"></div>
+                <div class="col p-3 bg-theme-grey">How To Do Single Listing</div>
+            </div>
+        </div>
+        <div class="col text-center">
+            <a href="javascript:void(0)" class="btn-theme-gradient">Bluk Listing</a>
+            <div id="carouselBulkListing" class="carousel slide height-350 w-75 mt-3 mx-auto" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselBulkListing" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselBulkListing" data-slide-to="1"></li>
+                    <li data-target="#carouselBulkListing" data-slide-to="2"></li>
+                    <li data-target="#carouselBulkListing" data-slide-to="3"></li>
+                    <li data-target="#carouselBulkListing" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner height-350">
+                    <div class="carousel-item active">
+                    <img class="d-block w-100 height-350" src="{{asset('seller-assets/image/product_view/product_big_img.png')}}" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100 height-350" src="{{asset('seller-assets/image/product_view/product_big_img.png')}}" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100 height-350" src="{{asset('seller-assets/image/product_view/product_big_img.png')}}" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100 height-350" src="{{asset('seller-assets/image/product_view/product_big_img.png')}}" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100 height-350" src="{{asset('seller-assets/image/product_view/product_big_img.png')}}" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselBulkListing" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselBulkListing" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="w-50 row align-items-stretch mx-auto">
+                <div class="col-auto p-3 bg-c4 d-flex align-items-center"><img src="{{asset('seller-assets/image/bulk_product_listing/youtube-icon.png')}}" alt="youtube"></div>
+                <div class="col p-3 bg-theme-grey">How To Do Bluk Listing</div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
+
+@section('extra-script')
+<script>console.log("hey from product upload")</script>
+@endsection

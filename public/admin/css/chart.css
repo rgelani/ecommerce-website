@@ -1,0 +1,103 @@
+
+:root
+{
+     --themebg:#E7F1EF;
+     --themedark:#4D7C73;
+     --themeyellow:#FFCE55;
+     --blue:#0163DE;
+     --htextblue:#1F4173;
+     --textlight:#8FA0B9;
+     --themeblack:#000;
+     --themewhite:#ffffff;
+}
+#chart-container{
+     height: 500px; 
+}
+.raphael-group-85-dataset-axis-name,.raphael-group-90-dataset-axis-name,.raphael-group-109-dataset-axis-name
+{
+display: none !important;
+}
+.raphael-group-104-dataset-axis-name,.raphael-group-89-dataset-axis-name,.raphael-group-108-dataset-axis-name
+{
+display: none !important;
+}
+
+
+[pointer-events="bounding-box"] {
+display: none
+}
+.chart
+{
+     margin-top: 110px;
+     border-radius: 60px !important;
+     box-shadow: -20px 7px 40px #eee;
+     position: relative !important;
+}
+#chart-container
+{
+     border-radius: 10px !important;
+     padding: 20px;
+     background-color: var(--themewhite);
+     padding-top: 90px !important;
+     position: relative;
+     overflow: hidden;
+     transition: .3s;
+    
+     
+}
+.chart_text
+{
+     position: absolute;
+     top: 33%;
+     left: 7%;
+     font-family: 'Aclonica', sans-serif;
+     color: var(--htextblue);
+     font-size: 16px;
+}
+.chart_text_2
+{
+     top: 12.5%;
+}
+
+.chart_text_right
+{
+     position: absolute;
+     top: 33%;
+     right: 7%;
+     font-family: 'Aclonica', sans-serif;
+     color: var(--htextblue);
+     font-size: 16px;
+
+
+
+}
+.chart_text_right_2
+{
+     top: 12.5%;
+}
+
+.chart_text_right
+{
+     border: none !important;
+     width: 10%;
+}
+.date_main
+{
+     position: absolute;
+     top: 33%;
+     right: 18%;
+     font-family: 'Aclonica', sans-serif;
+     color: var(--htextblue);
+     font-size: 16px;
+     outline: none;
+     width: 160px;
+     border: none;
+}
+.date_main_2
+{
+     top: 12.5%;
+}
+.order_chart_text
+{
+     top: 25%;
+}

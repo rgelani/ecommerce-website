@@ -1,0 +1,129 @@
+
+/* ================================================================================
+                         start product approval
+================================================================================ */
+   
+@media screen and (min-width:991px) and (max-width:1440px) {
+
+            /*start Seller main */
+     
+     .seller_main_pincode {
+          width: 4%;
+     }
+     .seller_main_mo {
+          width: 5%;
+     }
+           
+     .seller_main_ip_ad {
+          width: 7%;
+      }
+      .seller_main_no_purchase {
+          width: 6.5%;
+          border-left: 1px #DCDFE6 solid;
+      }
+     .seller_main_email
+     {
+          width: 18.50%;
+          font-size:10px;
+     }
+     /*end Seller main */
+}
+@media screen and (min-width:991px) and (max-width:1199px) {
+     .product_view {
+          padding: 18px 18px !important;
+          padding-top: 75px !important;
+      }
+      .q_c_pricing {
+          font-size: 12px;
+      }
+     .q_c_pricing_main>li
+     {
+          margin:0 12px !important;
+
+     }
+     .yellow_pricing
+     {
+          padding: 2.5px;
+     }
+     .single_pro_listing
+     {
+          padding-top: 30px;
+     }
+     .chart_text,.chart_text_right
+     {
+          position: absolute;
+          top: 37%;
+          right: 8%;
+          font-family: 'Aclonica', sans-serif;
+          color: var(--htextblue);
+          font-size: 16px;
+     }
+     .date_main
+     {
+          position: absolute;
+          top: 37%;
+          right: 18%;
+          font-family: 'Aclonica', sans-serif;
+          color: var(--htextblue);
+          font-size: 16px;
+          outline: none;
+          width: 160px;
+          border: none;
+     }
+     .seller_main_email
+     {
+          font-size:10px;
+     }
+     .seller_main_user_info
+     {
+          font-size: 8px;
+     }
+
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+     .product_view {
+          padding: 15px 15px !important;
+          padding-top:60px !important;
+          
+      }
+      .q_c_pricing {
+          font-size: 10px;
+      }
+     .q_c_pricing_main>li
+     {
+          margin:0 8px !important;
+     }
+     .yellow_pricing
+     {
+          padding: 2px;
+     }
+     .single_pro_listing
+     {
+          padding-top: 10px;
+     }
+}         
+@media screen and (min-width:1400px) and (max-width:1200px) {
+     .single_heiding
+     {
+          position: absolute !important;
+          width: 92%;
+     }
+
+     .product_view {
+          padding: 18px 18px !important;
+          padding-top: 75px !important;
+      }
+      .seller_main_user_info
+      {
+           font-size: 12px !important;
+      }
+    
+}
+@media screen and (max-width:767px){
+     
+}
+
+   /* ================================================================================
+                            end product approval
+   ================================================================================ */
+   
